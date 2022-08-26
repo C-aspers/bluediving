@@ -1,0 +1,142 @@
+article {
+  height: auto;
+}
+.container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.title {
+  h1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: 24rem 0 0 0;
+    color: var(--color-white);
+    font-size: 6vw;
+    text-align: center;
+    font-weight: 600;
+    font-family: Brandon-text;
+  }
+  h2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 32rem 0 0 0;
+    height: fit-content;
+    color: var(--color-white);
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 400;
+    font-family: Brandon-text;
+  }
+  h5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 20rem 0 0 0;
+    height: fit-content;
+    color: var(--color-white);
+    font-size: 2.2vw;
+    text-align: center;
+    font-weight: 900;
+    font-family: Brandon-text;
+    text-transform: uppercase;
+  }
+}
+
+/*================= MEDIA QUERIES (MEDIUM DEVICES : IPAD) ======================*/
+$layout-breakpoint-medium: 1024px;
+
+@media (max-width: $layout-breakpoint-medium) {
+  .container {
+    height: 100vh;
+  }
+  .title {
+    h1 {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: fit-content;
+      margin: 24rem 0 0 0;
+      color: var(--color-white);
+      font-size: 4em;
+      text-align: center;
+      font-weight: 600;
+      font-family: Brandon-text;
+    }
+    h2 {
+      position: absolute;
+      height: fit-content;
+      margin: 35rem 0 0 0;
+      color: var(--color-white);
+      font-size: 2.2em;
+      text-align: center;
+      font-weight: 400;
+      font-family: Brandon-text;
+    }
+    h5 {
+      position: absolute;
+      color: var(--color-white);
+      font-size: 1.2em;
+      text-align: center;
+      font-weight: 900;
+      font-family: Brandon-text;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/*================= MEDIA QUERIES (SMALL DEVICES) ======================*/
+$layout-breakpoint-small: 768px;
+
+@media (max-width: $layout-breakpoint-small) {
+  .container {
+    height: 100vh;
+  }
+  .title {
+    h1 {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: fit-content;
+      margin: 28rem 1.5rem 0 1.5rem;
+      color: var(--color-white);
+      font-size: 2.2em;
+      text-align: center;
+      font-weight: 600;
+      font-family: Brandon-text;
+    }
+    h2 {
+      position: absolute;
+      margin: 36rem 1.5rem 0 1.5rem;
+      height: fit-content;
+      color: var(--color-white);
+      font-size: 4vw;
+      text-align: center;
+      font-weight: 400;
+      font-family: Brandon-text;
+    }
+    h5 {
+      position: absolute;
+      margin: 24rem 1.5rem 0 1.5rem;
+      color: var(--color-white);
+      font-size: 3.2vw;
+      text-align: center;
+      font-weight: 900;
+      font-family: Brandon-text;
+      text-transform: uppercase;
+    }
+  }
+}
