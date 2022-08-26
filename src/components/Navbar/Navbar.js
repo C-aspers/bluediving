@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Navbar.module.scss";
 import { useState } from "react";
 import FirstSvg from "./IconSvg/FirstSvg";
-import { FaBeer } from "react-icons/fa";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
